@@ -1,0 +1,27 @@
+{
+  "clients": [
+    { "id": "1", "name": "Juan Pérez" },
+    { "id": "2", "name": "María Gómez" },
+    { "id": "3", "name": "Carlos Sánchez" }
+  ],
+  "properties": [
+    {
+      "id": "a",
+      "address": "Calle Falsa 123",
+      "clientId": "1",
+      "owner": "Roberto Pérez"
+    },
+    {
+      "id": "b",
+      "address": "Av. Siempreviva 742",
+      "clientId": "1",
+      "owner": "Roberto Pérez"
+    },
+    {
+      "id": "c",
+      "address": "Mitre 456",
+      "clientId": "2",
+      "owner": "Laura Gómez"
+    }
+  ]
+}
