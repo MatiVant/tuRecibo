@@ -114,7 +114,7 @@ const ReceiptForm = ({ onSubmit }: { onSubmit: (data: any) => void }) => {
             optionFilterProp="children"
             onChange={(val) => setSelectedClientId(val)}
             filterOption={(input, option) =>
-              (option?.children as string)
+              (option?.children as any)
                 .toLowerCase()
                 .includes(input.toLowerCase())
             }
