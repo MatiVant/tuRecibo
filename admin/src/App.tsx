@@ -1,5 +1,4 @@
 import "./App.css";
-import { Layout, Menu } from "antd";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainLayout from "./components/layout/mainLayout";
 import ReceiptForm from "./components/receiptForm";
